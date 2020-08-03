@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact CHRWU</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <p>s195121@dtu.dk</p>
+    <hr>
+    <form action="mailto:hah210705@gmail.com" method="post" enctype="text/plain"> <!--The action means take the user to the address writtin.
+    mailto puts in the email address i specify and the method=post give us what the user write into the fields below as a post.
+    The enctype specify like the utf-8, but in this case its encoded in plain text-->
+      <label>Your Name:</label>
+      <input type="text" name="YourName" value=""> <!--We also need to add a name the the name value, thats going to identity the data
+        inside each of the inputs.When you submit there will be written f.eks. Your name - angela and soforth-->
+      <br>
+      <label>Your Email:</label>
+      <input type="email" name="YourEmail" value="">
+      <br>
+      <label>Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="20"></textarea><br> <!--The rows and cols tells how big the default textarea should be.-->
+      <input type="submit" name=""><br>
+
+    </form>
+
+  </body>
+</html>
